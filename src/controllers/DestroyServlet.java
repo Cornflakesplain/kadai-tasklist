@@ -48,5 +48,4 @@ public class DestroyServlet extends HttpServlet {
             response.sendRedirect(request.getContextPath() + "/index");
         }
     }
-
 }

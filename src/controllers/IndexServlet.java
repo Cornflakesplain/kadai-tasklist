@@ -61,5 +61,4 @@ public class IndexServlet extends HttpServlet {
 	    RequestDispatcher rd = request.getRequestDispatcher("/WEB-INF/views/tasks/index.jsp");
 	    rd.forward(request, response);
 	}
-
 }
